@@ -28,7 +28,8 @@ autoModeConfig:
 managedNodeGroups:
   - name: managed
     instanceTypes:
-      - t3.medium
+      - t3.micro
+      - t2.micro
     desiredCapacity: 2
     minSize: 1
     maxSize: 3
