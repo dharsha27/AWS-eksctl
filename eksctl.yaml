@@ -22,9 +22,6 @@ metadata:
   region: us-east-1
   version: "1.34"
 
-iam:
-  withOIDC: true
-
 autoModeConfig:
   enabled: false
 
@@ -37,5 +34,4 @@ managedNodeGroups:
     maxSize: 3
     volumeSize: 40
     spot: true
-
 
